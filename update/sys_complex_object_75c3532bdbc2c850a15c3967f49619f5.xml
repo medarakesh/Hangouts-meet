@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb1c3532baac2c8506ff797049cb8a7f5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>367ff222db0a4450d852f7b51d96199c</scope_name>
+        <serialized_content>{"FlowDesigner:FDb1c3532baac2c8506ff797049cb8a7f5":{"htmlLink":"String","htmlLink.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"HTML Link\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Event ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDb1c3532baac2c8506ff797049cb8a7f5.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb1c3532baac2c8506ff797049cb8a7f5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"7889fdf8-7f83-4c6e-acc8-408ea1db171c\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-01-06 09:28:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75c3532bdbc2c850a15c3967f49619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDb1c3532baac2c8506ff797049cb8a7f5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Hangouts Meet Spoke" source="sn_hangouts_meet">367ff222db0a4450d852f7b51d96199c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Hangouts Meet Spoke">367ff222db0a4450d852f7b51d96199c</sys_scope>
+        <sys_update_name>sys_complex_object_75c3532bdbc2c850a15c3967f49619f5</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-01-06 09:28:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

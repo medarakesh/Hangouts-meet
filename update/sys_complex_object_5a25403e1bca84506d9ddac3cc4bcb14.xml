@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9625403ec1ca845089d3588ce65e6414</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>367ff222db0a4450d852f7b51d96199c</scope_name>
+        <serialized_content>{"FlowDesigner:FD9625403ec1ca845089d3588ce65e6414":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD9625403ec1ca845089d3588ce65e6414.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Attendees\",\"mandatory\":\"true\",\"child_name\":\"Email\",\"uiUniqueId\":\"11692009-e2c7-42b5-96ee-0ab7ad7c1a73\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD9625403ec1ca845089d3588ce65e6414\",\"child_label\":\"Email\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"26c9ddd1-09ae-4c74-ba80-ea6eb7326a58\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-01-03 10:29:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a25403e1bca84506d9ddac3cc4bcb14</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FD9625403ec1ca845089d3588ce65e6414</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Hangouts Meet Spoke" source="sn_hangouts_meet">367ff222db0a4450d852f7b51d96199c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Hangouts Meet Spoke">367ff222db0a4450d852f7b51d96199c</sys_scope>
+        <sys_update_name>sys_complex_object_5a25403e1bca84506d9ddac3cc4bcb14</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-01-03 10:34:44</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd3839be736c2c8500d585eb64877d414</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>367ff222db0a4450d852f7b51d96199c</scope_name>
+        <serialized_content>{"FlowDesigner:FDd3839be736c2c8500d585eb64877d414":{"summary":"String","summary.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Summary\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"created":"String","created.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Created\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"htmlLink":"String","htmlLink.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"HTML Link\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"iCalUID":"String","iCalUID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"iCal UID\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"hangoutLink":"String","hangoutLink.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hangouts Meeting Link\",\"mandatory\":\"true\",\"order\":\"9\",\"max_length\":\"0\"}"},"start":{"dateTime":"String","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Start Date Time\",\"mandatory\":\"true\",\"order\":\"11\",\"max_length\":\"0\"}"},"timeZone":"String","timeZone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Time Zone\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"0\"}"}},"start.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Start  Date\",\"mandatory\":\"true\",\"order\":\"10\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"location":"String","location.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Location\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Event ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"},"updated":"String","updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Updated\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"}},"FlowDesigner:FDd3839be736c2c8500d585eb64877d414.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"true\",\"uiUniqueId\":\"7889fdf8-7f83-4c6e-acc8-408ea1db171c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd3839be736c2c8500d585eb64877d414\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-01-06 09:27:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97839be7dbc2c850a15c3967f4961914</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>FDd3839be736c2c8500d585eb64877d414</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Hangouts Meet Spoke" source="sn_hangouts_meet">367ff222db0a4450d852f7b51d96199c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Hangouts Meet Spoke">367ff222db0a4450d852f7b51d96199c</sys_scope>
+        <sys_update_name>sys_complex_object_97839be7dbc2c850a15c3967f4961914</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-01-06 09:39:01</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_hangouts_meet.HangoutsMeetErrorHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HangoutsMeetErrorHandler</name>
+        <script><![CDATA[var HangoutsMeetErrorHandler = Class.create();
+HangoutsMeetErrorHandler.prototype = {
+    initialize: function() {},
+    errorMessages: function(key) {
+        var errorMessages = {
+            "timeRangeEmpty": "A required field or parameter has not been provided, the value supplied is invalid, or the combination of provided fields is invalid.",
+
+            "authError": "Invalid authorization header. The access token you're using is either expired or invalid.",
+
+            "dailyLimitExceeded": "The Courtesy API limit for your project has been reached.",
+
+            "userRateLimitExceeded": "The per-user limit from the Developer Console has been reached.",
+
+            "rateLimitExceeded": "The user has reached Google Calendar API's maximum request rate per calendar or per authenticated user.",
+
+            "quotaExceeded": "The user reached one of the Google Calendar limits in place to protect Google users and infrastructure from abusive behavior.",
+
+            "notFound": "The specified resource was not found(the requested resource (with the Calendar ID) has never existed or accessing a calendar that the user can not access)",
+
+            "duplicate": "An instance with the given ID already exists in the storage.",
+
+            "fullSyncRequired": "SyncToken or updatedMin parameters are no longer valid. This error can also occur if a request attempts to delete an event that has already been deleted.",
+
+            "updatedMinTooLongAgo": "SyncToken or updatedMin parameters are no longer valid. This error can also occur if a request attempts to delete an event that has already been deleted.",
+
+            "deleted": "SyncToken or updatedMin parameters are no longer valid. This error can also occur if a request attempts to delete an event that has already been deleted.",
+
+            "conditionNotMet": "The etag supplied in the If-match header no longer corresponds to the current etag of the resource.",
+
+            "backendError": "An unexpected error occurred while processing the request."
+        };
+        return errorMessages[key];
+    },
+
+    getErrorMessage: function(response) {
+
+        var errorReason = response.error.errors[0]["reason"];
+
+        return this.errorMessages(errorReason) || response.error.errors[0]["message"];
+    },
+    type: 'HangoutsMeetErrorHandler'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-01-03 10:15:22</sys_created_on>
+        <sys_id>81c104f61bca84506d9ddac3cc4bcb05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HangoutsMeetErrorHandler</sys_name>
+        <sys_package display_value="Google Hangouts Meet Spoke" source="sn_hangouts_meet">367ff222db0a4450d852f7b51d96199c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Hangouts Meet Spoke">367ff222db0a4450d852f7b51d96199c</sys_scope>
+        <sys_update_name>sys_script_include_81c104f61bca84506d9ddac3cc4bcb05</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-01-03 10:15:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDcc2e8bafcf82c850c4084219320a54de</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>367ff222db0a4450d852f7b51d96199c</scope_name>
+        <serialized_content>{"FlowDesigner:FDcc2e8bafcf82c850c4084219320a54de":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDcc2e8bafcf82c850c4084219320a54de.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Email\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDcc2e8bafcf82c850c4084219320a54de\",\"child_label\":\"Email\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"8\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8762ab15-732f-48a8-a5b3-17726b3e7f06\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-01-06 09:03:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>802e8bafdb82c850a15c3967f49619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDcc2e8bafcf82c850c4084219320a54de</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Hangouts Meet Spoke" source="sn_hangouts_meet">367ff222db0a4450d852f7b51d96199c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Hangouts Meet Spoke">367ff222db0a4450d852f7b51d96199c</sys_scope>
+        <sys_update_name>sys_complex_object_802e8bafdb82c850a15c3967f49619df</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-01-06 09:03:20</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
